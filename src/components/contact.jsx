@@ -5,7 +5,7 @@ import {MdEmail} from "react-icons/md";
 import {FaInstagramSquare } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div className="text-gray-400 componentskill">
+    <div className="text-gray-400 componentcontact">
       <div className="w-imgContact"><ImageOne /></div>
       <div className="mx-20">
         <div className="font-serif text-2xl font-bold pt-5 mx-10">CONTACT_US</div>

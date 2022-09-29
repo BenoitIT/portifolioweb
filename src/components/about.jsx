@@ -10,7 +10,7 @@ import {SiFuturelearn} from "react-icons/si";
 import {RiMiniProgramFill} from "react-icons/ri";
 const About = () => {
   return (
-    <div className="text-gray-400 components">
+    <div className="text-gray-400 aboutcomponents">
       <ImageOne />
       <div className="mx-20">
         <div className="font-serif  pt-5">ABAUT-US</div>
