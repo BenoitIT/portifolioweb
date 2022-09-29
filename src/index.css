@@ -25,13 +25,16 @@ body {
 .contents{
   width: 70%;
 }
+.homemx{
+  margin-left:3.8rem;
+}
 .components{
  width:81%;
  margin-left:-4.4rem;
 }
 .componentskill{
   width:81%;
- margin-left:-3rem;
+ margin-left:-4.4rem;
 }
 .skills{
   position: absolute;
@@ -44,23 +47,34 @@ body {
 }
 .phpdiv{
   position: absolute;
-  top:50rem;
-  right:20rem;
+  top:45rem;
+  right:10rem;
 }
 .Cssdiv{
   position: absolute;
   top:50rem;
-  right:33rem;
+  right:15rem;
 }
 .Jsdiv{
   position: absolute;
   top:40rem;
-  right:33rem;
+  right:15rem;
 }
 .HTMLdiv{
   position: absolute;
   top:40rem;
-  right:20rem;
+  right:10rem;
+}
+.svgImg{
+  border-top-left-radius: 20rem;
+  border-bottom-right-radius: 8rem;
+}
+.w_input{
+  width:25rem;
+}
+.w-imgContact{
+  width:93%;
+  margin-left:3.6rem;
 }
 @tailwind base;
 @tailwind components;
