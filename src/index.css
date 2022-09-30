@@ -9,6 +9,7 @@ body {
   border-radius: 100%;
   width:8rem;
 }
+
 .Bganimation{
   background-size:cover;
   background-position: left;
@@ -32,53 +33,16 @@ body {
   padding-top: 5rem;
   margin-left: -20rem;
 }
-.homemx{
-  margin-left:3.8rem;
-}
+
 .components{
  width:100%;
  margin-left:10rem;
 }
-.aboutcomponents{
-  width:100%;
-  margin-left:-9rem;
- }
-.componentskill{
-  width:100%;
-  margin-left: -9rem;
-}
+
+
 .componentcontact{
   width:100%;
   margin-left: -13.8rem;
-}
-.skills{
-  position: absolute;
-  top:32.6rem;
-  left:10rem
-}
-.close{
-  margin-left: 33rem;
-  margin-top: 0.5rem;
-}
-.phpdiv{
-  position: absolute;
-  top:45rem;
-  right:10rem;
-}
-.Cssdiv{
-  position: absolute;
-  top:50rem;
-  right:15rem;
-}
-.Jsdiv{
-  position: absolute;
-  top:40rem;
-  right:15rem;
-}
-.HTMLdiv{
-  position: absolute;
-  top:40rem;
-  right:10rem;
 }
 .svgImg{
   border-top-left-radius: 20rem;

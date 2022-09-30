@@ -10,12 +10,12 @@ import {SiFuturelearn} from "react-icons/si";
 import {RiMiniProgramFill} from "react-icons/ri";
 const About = () => {
   return (
-    <div className="text-gray-400 aboutcomponents">
+    <div className="text-gray-400 sm:ml-[-6rem] lg:ml-[-3.5rem]">
       <ImageOne />
-      <div className="mx-20">
-        <div className="font-serif  pt-5">ABAUT-US</div>
-        <div className="font-medium text-gray-400  my-4">who I am</div>
-        <div className="font-serif w-3/4 ">
+      <div className="lg:mx-20 sm:mx-2">
+        <div className="font-serif  pt-5 lg:ml-20 sm:ml-[11rem]">ABAUT-US</div>
+        <div className="font-medium text-gray-400  my-4 lg:mx-20 sm:ml-[11rem]">who I am</div>
+        <div className="font-serif lg:w-3/4 lg:mx-20 sm:ml-[11rem] sm:w-2/4 lg:text-lg sm:text-sm">
           Save time in Word with new buttons that show up where you need them.
           To change the way a picture fits in your document, click it and a
           button for layout options appears next to it. When you work on a
@@ -24,10 +24,10 @@ const About = () => {
           collapse parts of the document and focus on the text you want
         </div>
         <div
-          className="flex flex-row space-x-4 my-10"
+          className="lg:flex lg:flex-row space-x-4 my-10 sm:flex sm:flex-col sm:space-y-2 lg:ml-20 sm:ml-[10rem] sm:mr-[2rem]"
         >
-          <div className="rounded shadow-md shadow-gray-500  border-blue-400  w-1/4">
-            <div className=" py-20 border-2 flex flex-col space-y-2 text-sm items-center justify-center bg-white">
+          <div className="rounded shadow-md shadow-gray-500  border-blue-400  lg:w-1/4 sm:w-3/4 lg:ml-4 sm:ml-4">
+            <div className=" pt-[6rem] pb-[3rem] border-2 flex flex-col space-y-2 lg:text-lg sm:text-sm items-center justify-center bg-white">
               <div className="flex flex-row justify-center space-x-2 text-center">
                 <div className="hover:text-blue-600 text-blue-400 ">
                   <GiNetworkBars size={20} />
@@ -43,8 +43,8 @@ const About = () => {
             </div>
 
           </div>
-          <div className="rounded shadow-md shadow-gray-500 border-blue-400 w-1/4" >
-          <div className=" py-20 border-2 flex flex-col space-y-2 text-sm items-center justify-center bg-white">
+          <div className="rounded shadow-md shadow-gray-500 border-blue-400 lg:w-1/4 sm:w-3/4 sm:mx-[-5rem]" >
+          <div className=" py-20 border-2 flex flex-col space-y-2 lg:text-lg sm:text-sm items-center justify-center bg-white ">
               <div className="flex flex-row justify-center space-x-2 text-center">
                 <div className="hover:text-blue-600 text-blue-400 ">
                   <RiTeamLine size={20} />
@@ -60,15 +60,15 @@ const About = () => {
             </div>
 
           </div>
-          <div className="rounded shadow-md shadow-gray-500  w-1/4  border-blue-400">
-          <div className=" py-20 border-2 flex flex-col space-y-2 text-sm items-center justify-center bg-white">
+          <div className="rounded shadow-md shadow-gray-500  lg:w-1/4 sm:w-3/4 border-blue-400">
+          <div className=" py-20 border-2 flex flex-col space-y-2 lg:text-lg sm:text-sm items-center justify-center bg-white">
               <div className="flex flex-row justify-center space-x-2 text-center">
                 <div className="hover:text-blue-600 text-blue-400 ">
                   <MdSyncProblem size={20} />
                 </div>
                 <span>love for challenges</span>
               </div>
-              <div className="flex flex-row justify-center space-x-2">
+              <div className="flex lg:flex-row justify-center space-x-2">
                 <div className="hover:text-blue-600 text-blue-400">
                   <BiCollapse size={20} />
                 </div>
@@ -77,8 +77,8 @@ const About = () => {
             </div>
              </div>
 
-          <div className="rounded shadow-md shadow-gray-500 border-blue-400 w-1/4" >
-          <div className=" py-20 border-2 flex flex-col space-y-2 text-sm items-center justify-center bg-white">
+          <div className="rounded shadow-md shadow-gray-500 border-blue-400 lg:w-1/4 sm:w-3/4" >
+          <div className=" py-20 border-2 flex flex-col space-y-2 lg:text-lg sm:text-sm items-center justify-center bg-white">
               <div className="flex flex-row justify-center space-x-2 text-center">
                 <div className="hover:text-blue-600 text-blue-400 ">
                   <SiFuturelearn size={20} />
