@@ -3,7 +3,7 @@ import BenodCv from "./graphics/benodCV.pdf";
 import { MdOutlineFileDownload } from "react-icons/md";
 const Home = () => {
   return (
-    <section className="components sm:mx-10">
+    <section className="lg:ml-[3.5rem] sm:mx-10">
       <div className="flex lg:ml-[12rem] bg-gradient-to-tr from-white to bg-gray-200 sm:-mx-10 sm:w-screen">
         <div className="h-screen w-screen flex flex-row relative">
           <div className="mx-20 my-20 absolute ">

@@ -7,7 +7,7 @@ import { SiJavascript } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 const Project = () => {
   return (
-    <div className="text-gray-400  lg:-ml-[4rem] relative">
+    <div className="text-gray-400  lg:-ml-[3rem] relative">
       <ImageOne />
       <div className="mx-[8rem]">
         <div className="font-serif lg:text-4xl sm:text-xl pt-5 lg:mx-0 sm:ml-[3rem]">

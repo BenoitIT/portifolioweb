@@ -13,26 +13,35 @@ function App() {
   const SetHiddenNav = () => {
     setNav(true);
   };
-  const[active,setActive]=useState(null)
-   const handleActive=(link)=>{
-    setActive(link)
-   }
-   const showNav=()=>{
-    setNav(false)
-    setActive(null)
-  }
+  const [active, setActive] = useState(null);
+  const handleActive = (link) => {
+    setActive(link);
+  };
+  const showNav = () => {
+    setNav(false);
+    setActive(null);
+  };
 
   return (
     <div className="lg:flex lg:flex-row space-x-2 w-screen sm:flex sm:flex-col space-y-2 relative">
       <div className={nav ? "sm:hidden lg:block" : "navbar"}>
         {/* <Navbar/> */}
-        <Navbar onNavhide={SetHiddenNav} onActiveMenu={handleActive} active={active}/>
+        <Navbar
+          onNavhide={SetHiddenNav}
+          onActiveMenu={handleActive}
+          active={active}
+        />
       </div>
       <div className="lg:flex-col">
-        <div className={nav||active!==null? "block sm:sticky top-0 left-0":"sm:hidden lg:block"}>
-        <Header onShowNav={showNav} nav={nav} active={active}/>
+        <div
+          className={
+            nav || active !== null
+              ? "block sm:sticky top-0 left-0"
+              : "sm:hidden lg:block"
+          }
+        >
+          <Header onShowNav={showNav} nav={nav} active={active} />
         </div>
-
 
         <div id="routes" className="lg:h-screen">
           <Routes>
