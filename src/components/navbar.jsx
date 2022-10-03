@@ -7,8 +7,9 @@ import { AiFillProject } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
 import {SiBlogger} from "react-icons/si"
 import React, { useState} from "react";
+import {IoMdClose} from "react-icons/io";
 
-const Navbar = () => {
+const Navbar = ({onNavhide,onActiveMenu,active}) => {
   const navItems = [
     { id: 1, name: "Home", path: "", icon: <FaHome  size={20}/> },
     { id: 2, name: "About", path: "about", icon: <SiAboutdotme size={20}/> },
@@ -18,15 +19,10 @@ const Navbar = () => {
     { id: 6, name: "Blog", path: "blog", icon: <SiBlogger size={20}/> }
   ];
 
-   const[active,setActive]=useState("")
-   const handleActive=(link)=>{
-    setActive(link)
-   }
-
-
   return (
-    <section>
+    <section className={active!==null?"sm:hidden lg:block":"sm:h-screen"}>
       <nav className="lg:fixed flex flex-col bg-gray-300 lg:h-screen lg:w-60 class space-y-6 overflow-auto scrollbar-hide sm:relative sm:w-screen sm:space-y-2 sm:h-90">
+        <div className="lg:hidden sm:block absolute right-0 hover:bg-red-300" onClick={onNavhide}><IoMdClose size={20}/></div>
         <div className="h-auto sm:flex sm:flex-col sm:justify-center lg:justify-center space-y-2 items-center my-10  lg:navbar">
           {/* top menu graphics */}
 
@@ -43,7 +39,7 @@ const Navbar = () => {
                 return (
                   <div className="lg:text-lg space-x-2 sm:text-sm">
                     <Link key={item.id}
-                    onClick={()=>handleActive(item.path)}
+                    onClick={()=>onActiveMenu(item.path)}
                       to={`/${item.path}`}
                       className={active===item.path?"flex flex-row text-lg space-x-2 font-serif text-blue-800 border-b-2 border-blue-700":" flex flex-row space-x-2 font-serif hover:text-blue-400 hover:border-b-2 hover:border-blue-300"}
                     >
@@ -53,9 +49,7 @@ const Navbar = () => {
                       <span>{item.name}</span>
                     </Link>
                   </div>
-                  // <Link key={item.id} to={item.page}>
-                  //   {item.name}
-                  // </Link>
+
 
                 );
               })

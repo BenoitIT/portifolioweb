@@ -7,13 +7,13 @@ import { SiJavascript } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 const Project = () => {
   return (
-    <div className="text-gray-400  -ml-[6rem] relative">
+    <div className="text-gray-400  lg:-ml-[4rem] relative">
       <ImageOne />
-      <div className="mx-[10rem]">
-        <div className="font-serif lg:text-2xl sm:text-xl pt-5 lg:mx-0 sm:ml-[3rem]">
+      <div className="mx-[8rem]">
+        <div className="font-serif lg:text-4xl sm:text-xl pt-5 lg:mx-0 sm:ml-[3rem]">
           Projects made
         </div>
-        <div className="lg:text-xl sm:text-sm text-gray-400 font-serif my-4 lg:mx-0 sm:ml-[3rem]">
+        <div className="lg:text-xl sm:text-sm text-gray-400 font-serif my-4 pt-4 lg:mx-0 sm:ml-[3rem]">
           working achievementd and accomplishment
         </div>
         <div className="flex lg:flex-row space-x-4 items-center my-4 sm:flex-col">
