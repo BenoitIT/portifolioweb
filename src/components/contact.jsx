@@ -47,6 +47,7 @@ const Contact = () => {
           <div className="text-mono flex-col space-y-4 px-20 my-4 lg:mx-0 sm:-ml-[5rem]">
             <div className="font-mono text text-2xl">Contact_us Form</div>
             <div className="bg-gray-50 lg:text-xl sm:text-sm" id="name">
+              <form>
               <div>
                 <label htmlFor="names" className="font-serif">
                   your name
@@ -89,9 +90,11 @@ const Contact = () => {
               <button className="border-2 border-gray-300 lg:w-[30rem] sm:w-[15rem] font-serif rounded h-10 lg:text-base sm:text-sm bg-blue-400 text-white">
                 send a message
               </button>
+              </form>
             </div>
           </div>
-        </div>
+          </div>
+
       </div>
       <ImageTwo />
     </div>
