@@ -1,10 +1,7 @@
 import ImageOne from "./backOne";
 import ImageTwo from "./BackTwo";
 import Imagesvg from "./graphics/svgImage.png";
-import { DiPhp } from "react-icons/di";
-import { SiCss3 } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiHtml5 } from "react-icons/si";
+import Files from "./files";
 const Project = () => {
   return (
     <div className="text-gray-400  lg:-ml-[3rem] relative">
@@ -71,17 +68,17 @@ const Project = () => {
         </div>
         <div className="absolute top-[50rem] right-[10rem] bg-blue-400 text-white rotate-45 animate-ping lg:block sm:hidden ">
           <div className="rotate-2">
-            <DiPhp size={30} />
+            {Files.DiPhp}
           </div>
         </div>
         <div className="absolute top-[50rem] right-[15rem] bg-blue-400 text-white rotate-45 border-2 animate-ping lg:block sm:hidden">
-          <SiCss3 size={30} />
+          {Files.SiCss3}
         </div>
         <div className="absolute top-[40rem] right-[10rem] bg-blue-400 text-white rotate-45 border-2 animate-bounce lg:block sm:hidden">
-          <SiJavascript size={30} />
+          {Files.SiJavascript}
         </div>
         <div className="absolute top-[40rem] right-[15rem] bg-blue-400 text-white rotate-45 border-2 animate-bounce lg:block sm:hidden">
-          <SiHtml5 size={30} />
+          {Files.SiHtml5}
         </div>
       </div>
       <ImageTwo />

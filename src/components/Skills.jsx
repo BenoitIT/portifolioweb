@@ -1,20 +1,7 @@
 import React from "react";
 import ImageOne from "./backOne";
 import ImageTwo from "./BackTwo";
-import { ImDatabase } from "react-icons/im";
-import { CgWebsite } from "react-icons/cg";
-import { SiNodedotjs } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { IoCloseCircle } from "react-icons/io5";
-import { AiFillHtml5 } from "react-icons/ai";
-import { SiTailwindcss } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { AiFillGithub } from "react-icons/ai";
-import { SiPhp } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import { FaLaravel } from "react-icons/fa";
+import Files from "./files";
 const Skills = () => {
   const [moreDb, setMoreDb] = React.useState(false);
   const [moreFrontEnd, setMoreFrontEnd] = React.useState(false);
@@ -65,7 +52,7 @@ const Skills = () => {
             <div className=" lg:pt-20 lg:pb-10 sm:pt-10 sm:pb-10 border-2 flex flex-col space-y-8 lg:text-sm sm:text-xs items-center justify-center bg-white">
               <div className="flex flex-row justify-center space-x-2 text-center">
                 <div className="hover:text-blue-600 text-blue-400 ">
-                  <SiNodedotjs size={30} />
+                 {Files.SiNodedotjs}
                 </div>
                 <span className="mt-2 lg:text-xl sm:text-sm">
                   Backend Development
@@ -83,7 +70,7 @@ const Skills = () => {
             <div className=" pt-20 pb-10 border-2 flex flex-col space-y-8 lg:text-sm sm:text-xs items-center justify-center bg-white">
               <div className="flex flex-row justify-center space-x-2 text-center">
                 <div className="hover:text-blue-600 text-blue-400 ">
-                  <CgWebsite size={30} />
+                  {Files.CgWebsite}
                 </div>
                 <span className="mt-2 lg:text-xl sm:text-sm">Front-end development</span>
               </div>
@@ -99,7 +86,7 @@ const Skills = () => {
             <div className=" pt-20 pb-10 border-2 flex flex-col space-y-8  lg:text-sm sm:text-xs items-center justify-center bg-white">
               <div className="flex flex-row justify-center space-x-2 text-center">
                 <div className="hover:text-blue-600 text-blue-400 ">
-                  <ImDatabase size={30} />
+                  {Files.dbIcon}
                 </div>
                 <span className="mt-2 lg:text-xl sm:text-sm">DataBase technology</span>
               </div>
@@ -125,23 +112,23 @@ const Skills = () => {
               className="hover:text-red-300 lg:ml-[36rem] lg:mt-[0.5rem] sm:ml-[15rem] sm:mt-[0.5rem] text-blue-400"
               onClick={handleMinimize}
             >
-              <IoCloseCircle size={20} />
+               {Files.IoCloseCircle }
             </span>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-4">
               <div className="text-blue-400">
-                <SiMongodb size={30} />
+                {Files.SiMongodb }
               </div>
               <div>MongoDb technology</div>
             </div>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-4">
               <div className="text-blue-400">
-                <SiMysql size={30} />
+                {Files.SiMysql }
               </div>
               <div>Mysql database technology</div>
             </div>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-4">
               <div className="text-blue-400">
-                <SiPostgresql size={30} />
+               {Files.SiPostgresql}
               </div>
               <div>cloud postgres database technology</div>
             </div>
@@ -160,29 +147,29 @@ const Skills = () => {
               className="hover:text-red-300 lg:ml-[36rem] lg:mt-[0.5rem] sm:ml-[15rem] sm:mt-[0.5rem] text-blue-400"
               onClick={handleMinimize}
             >
-              <IoCloseCircle size={20} />
+              {Files.IoCloseCircle }
             </span>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-2">
               <div className="text-blue-400">
-                <AiFillHtml5 size={30} />
+                {Files.AiFillHtml5 }
               </div>
               <div>HyperText Markup language 5</div>
             </div>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-2">
               <div className="text-blue-400">
-                <SiTailwindcss size={30} />
+                {Files.SiTailwindcss }
               </div>
               <div>Tailwind css</div>
             </div>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-2">
               <div className="text-blue-400">
-                <FaReact size={30} />
+                {Files.FaReact }
               </div>
               <div>React js</div>
             </div>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-2">
               <div className="text-blue-400">
-                <AiFillGithub size={30} />
+                 {Files.AiFillGithub}
               </div>
               <div>git/github</div>
             </div>
@@ -201,29 +188,29 @@ const Skills = () => {
               className="hover:text-red-300 lg:ml-[36rem] lg:mt-[0.5rem] sm:ml-[15rem] sm:mt-[0.5rem] text-blue-400"
               onClick={handleMinimize}
             >
-              <IoCloseCircle size={20} />
+               {Files.IoCloseCircle }
             </span>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-2">
               <div className="text-blue-400">
-                <SiPhp size={30} />
+                {Files.SiPhp }
               </div>
               <div>PerHyper Preprocessor</div>
             </div>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-2">
               <div className="text-blue-400">
-                <FaNode size={30} />
+               {Files.FaNode }
               </div>
               <div>node js</div>
             </div>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 py-2">
               <div className="text-blue-400">
-                <FaLaravel size={30} />
+                {Files.FaLaravel }
               </div>
               <div>laravel</div>
             </div>
             <div className="flex flex-row lg:space-x-4 sm:space-x-2 lg:mx-4 sm:mx-2 py-2">
               <div className="text-blue-400">
-                <AiFillGithub size={30} />
+                {Files.AiFillGithub }
               </div>
               <div>git/github</div>
             </div>

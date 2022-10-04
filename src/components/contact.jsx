@@ -1,8 +1,6 @@
 import ImageOne from "./backOne";
 import ImageTwo from "./BackTwo";
-import { BsTelephoneInboundFill } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
-import { FaInstagramSquare } from "react-icons/fa";
+import Files from "./files";
 const Contact = () => {
   return (
     <div className="text-gray-400 lg:ml-[10.5rem] lg:w-screen sm:-ml-20">
@@ -18,7 +16,7 @@ const Contact = () => {
             <div className="flex lg:space-x-4 sm:space-x-2">
               <div className="flex space-x-2 font-serif text-gray-500">
                 <span className="mt-1">
-                  <BsTelephoneInboundFill size={20} />
+                  {Files.BsTelephoneInboundFill}
                 </span>
                 <span>Tel:</span>
               </div>
@@ -27,7 +25,7 @@ const Contact = () => {
             <div className="flex lg:space-x-4 sm:space-x-2">
               <div className="flex space-x-2 font-serif text-gray-500">
                 <span className="mt-1">
-                  <MdEmail size={20} />
+                  {Files.MdEmail}
                 </span>
                 <span>Email:</span>
               </div>
@@ -36,7 +34,7 @@ const Contact = () => {
             <div className="flex lg:space-x-4 sm:space-x-2">
               <div className="flex space-x-2 font-serif text-gray-500">
                 <span className="mt-1">
-                  <FaInstagramSquare size={20} />
+                   {Files.FaInstagramSquare}
                 </span>
                 <span>Instagram:</span>
               </div>
