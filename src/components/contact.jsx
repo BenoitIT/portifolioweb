@@ -3,7 +3,7 @@ import ImageTwo from "./BackTwo";
 import Files from "./files";
 const Contact = () => {
   return (
-    <div className="text-gray-400 lg:ml-[10.5rem] lg:w-screen sm:-ml-20">
+    <div className="text-gray-400 lg:ml-[9.5rem] lg:w-screen sm:-ml-20 relative">
       <ImageOne />
       <div className="mx-[10rem] sm:mx-[9rem]">
         <div className="font-serif lg:text-2xl sm:text-xl font-bold pt-5 lg:mx-10 sm:mx-2">

@@ -3,7 +3,7 @@ import ImageTwo from "./BackTwo";
 import Imagesvg from "./graphics/svgImage.png";
 const Blogs = () => {
   return (
-    <div className="text-gray-400  lg:-ml-[10rem] relative">
+    <div className="text-gray-400  lg:-ml-[11.5rem] relative">
       <ImageOne />
       <div className="mx-[8rem]">
        <div className="grid grid-cols-3 gap-4 mx-4">
