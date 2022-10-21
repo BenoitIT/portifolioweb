@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 const CreateBlog = () => {
   return (
     <div className="lg:ml-[3.5rem] sm:mx-10 mt-20 bg-gray-100 shadow-md shadow-gray-300 rounded-md">

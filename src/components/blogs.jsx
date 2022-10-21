@@ -1,7 +1,6 @@
 import ImageOne from "./backOne";
 import ImageTwo from "./BackTwo";
 import Imagesvg from "./graphics/svgImage.png";
-import Files from "./files";
 const Blogs = () => {
   return (
     <div className="text-gray-400  lg:-ml-[10rem] relative">

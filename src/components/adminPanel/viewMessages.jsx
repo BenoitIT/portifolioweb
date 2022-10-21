@@ -1,6 +1,6 @@
 
 
-const Blogs = () => {
+const Messages = () => {
   return (
     <div className="text-gray-400  lg:-ml-[10rem] relative">
       <ImageOne />
@@ -41,4 +41,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Messages;
