@@ -9,6 +9,7 @@ import Project from "./components/Project";
 import Contact from "./components/contact";
 import Header from "./components/header";
 import LoginForm from "./components/loginForm";
+import Blogs from "./components/blogs";
 function App() {
   const [nav, setNav] = useState(false);
   const SetHiddenNav = () => {
@@ -53,6 +54,7 @@ function App() {
             <Route path="/skills" element={<Skills />}></Route>
             <Route path="/project" element={<Project />}></Route>
             <Route path="/contact_us" element={<Contact />}></Route>
+            <Route path="/blog" element={<Blogs />}></Route>
           </Routes>
         </div>
       </div>

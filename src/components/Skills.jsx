@@ -21,8 +21,7 @@ const Skills = () => {
     setMoreBkend(false);
   };
   return (
-    <div className="text-gray-400 lg:ml-[-12.3rem] sm:ml-[-5rem] relative">
-      <ImageOne />
+    <div className="text-gray-400 lg:ml-[-10.3rem] sm:ml-[-5rem] relative">
       <div className={moreDb ? "mx-20 bg-opacity-10" : "lg:mx-20 sm:ml-[7rem]"}>
         <div className="font-serif lg:text-4xl pt-5 ml-8 sm:text-lg">
           SKILLS
@@ -217,7 +216,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <ImageTwo />
     </div>
   );
 };
